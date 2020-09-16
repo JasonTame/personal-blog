@@ -1,7 +1,6 @@
 {
-    "name": "statamic/statamic-starter-cool-writings",
-    "description": "Statamic",
-    "keywords": ["statamic", "cms", "starter", "flat file", "laravel"],
+    "name": "jasontame/personal-blog",
+    "description": "Jason Tame personal blog",
     "type": "project",
     "require": {
         "php": "^7.1.3",
