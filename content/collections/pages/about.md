@@ -1,8 +1,8 @@
 ---
 title: About
-updated_by: 96300192-873c-4615-b992-157508a8d7c5
-updated_at: 1579284102
+updated_by: 5761106b-2220-429b-b49a-5e42cc8df619
+updated_at: 1600269465
 template: page
 id: 62136fa2-9e5c-4c38-a894-a2753f02f5ff
 ---
-I'm just a kid living in the 90's, writing articles in his secret public journal wonder if someday, somewhere in the future, they will be read by someone.
+I initially started a career in education before moving into IT and finally finding my ideal career path in software development. I am passionate about education, particularly in Southern Africa and I am always looking for ways to improve education through technology.
