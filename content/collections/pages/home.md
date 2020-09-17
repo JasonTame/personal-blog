@@ -1,8 +1,10 @@
 ---
 title: Home
-id: home
 template: home
 blueprint: home
-subtitle: I see pride. I see power.
+updated_by: 5761106b-2220-429b-b49a-5e42cc8df619
+updated_at: 1600361748
+subtitle: 'Musings on technology and education'
+id: home
 ---
-I see a bad-ass mother who don't take no crap off of nobody.
+Jason Tame. Web Developer & Educator

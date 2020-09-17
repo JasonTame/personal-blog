@@ -13,4 +13,4 @@ data:
     -
       name: Email
       url: 'mailto:hello@jasontame.dev'
-      icon: site/social-icons/email.svg
+      icon: null
