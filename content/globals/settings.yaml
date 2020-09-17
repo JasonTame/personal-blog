@@ -1,6 +1,6 @@
 title: Settings
 data:
-  site_name: 'Jason Tame'
+  site_name: 'Recoded Thoughts'
   social:
     -
       name: Twitter
@@ -10,7 +10,3 @@ data:
       name: Github
       url: 'https://github.com/jasontame'
       icon: site/social-icons/github.svg
-    -
-      name: Email
-      url: 'mailto:hello@jasontame.dev'
-      icon: null
