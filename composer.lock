@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5328f2ffc5b548559bedb8684456dfa6",
+    "content-hash": "38ec95782d78d2bb1d725ad16a9831b3",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3381,16 +3381,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.8",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "691f0ce68083f1ee5f44fde492a91a039d639252"
+                "reference": "2e69c8bfc16412b48cfdd2ee26d770e783844d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/691f0ce68083f1ee5f44fde492a91a039d639252",
-                "reference": "691f0ce68083f1ee5f44fde492a91a039d639252",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/2e69c8bfc16412b48cfdd2ee26d770e783844d38",
+                "reference": "2e69c8bfc16412b48cfdd2ee26d770e783844d38",
                 "shasum": ""
             },
             "require": {
@@ -3458,7 +3458,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-15T15:18:09+00:00"
+            "time": "2020-09-16T19:22:59+00:00"
         },
         {
             "name": "statamic/ssg",
