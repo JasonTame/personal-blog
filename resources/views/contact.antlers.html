@@ -33,36 +33,19 @@
 								<input name="bot-field"
 							/></label>
 						</p>
-						<div
-							class="flex flex-col sm:flex-row justify-between w-full"
-						>
-							<div>
-								<label
-									for="first_name"
-									class="block text-sm font-medium leading-5 text-gray-700"
-									>First name</label
-								>
-								<div class="mb-8 relative rounded-md shadow-sm">
-									<input
-										id="first_name"
-										name="first_name"
-										class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
-									/>
-								</div>
-							</div>
-							<div>
-								<label
-									for="last_name"
-									class="block text-sm font-medium leading-5 text-gray-700"
-									>Last name</label
-								>
-								<div class="mb-8 relative rounded-md shadow-sm">
-									<input
-										id="last_name"
-										name="last_name"
-										class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
-									/>
-								</div>
+						<div>
+							<label
+								for="name"
+								class="block text-sm font-medium leading-5 text-gray-700"
+								>Name</label
+							>
+							<div class="mb-8 relative rounded-md shadow-sm">
+								<input
+									id="name"
+									name="name"
+									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+									required
+								/>
 							</div>
 						</div>
 
@@ -78,6 +61,7 @@
 									type="email"
 									name="email"
 									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+									required
 								/>
 							</div>
 						</div>
@@ -93,6 +77,7 @@
 									name="message"
 									rows="4"
 									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+									required
 								></textarea>
 							</div>
 						</div>
