@@ -42,6 +42,11 @@ return [
         public_path('assets') => 'assets',
         public_path('css') => 'css',
         public_path('js') => 'js',
+        public_path('favicon.ico') => 'favicon.ico',
+
+        //TODO: Uncomment once manifest and sw are ready
+        // public_path('manifest.json') => 'manifest.json',
+        // public_path('sw.js') => 'sw.js',
     ],
 
     'symlinks' => [
