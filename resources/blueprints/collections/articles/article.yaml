@@ -11,7 +11,7 @@ sections:
       -
         handle: content
         field:
-          type: markdown
+          type: markdown_highlight
           display: Content
           restrict: false
           automatic_line_breaks: true
