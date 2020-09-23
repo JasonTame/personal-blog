@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/vendor/statamic
+public/workbox-*.js
 /storage/*.key
 /vendor
 /.idea
