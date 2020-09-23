@@ -72,7 +72,7 @@ h1 {
     }
 
     > pre, pre&, > ul li pre, > ol li pre {
-        @apply flex p-0 bg-gray-800 text-gray-300 text-sm leading-loose mb-6;
+        @apply flex p-0 bg-gray-dark text-gray-300 text-sm leading-loose mb-6;
     }
 
     > pre code, pre code&, > ul li pre code, > ol li pre code {

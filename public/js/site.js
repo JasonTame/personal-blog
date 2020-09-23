@@ -133,8 +133,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/advantagelearn/Documents/Dev/personal-blog/resources/js/site.js */"./resources/js/site.js");
-module.exports = __webpack_require__(/*! /Users/advantagelearn/Documents/Dev/personal-blog/resources/css/tailwind.css */"./resources/css/tailwind.css");
+__webpack_require__(/*! /Users/jasontame/Dev/personal-blog/resources/js/site.js */"./resources/js/site.js");
+module.exports = __webpack_require__(/*! /Users/jasontame/Dev/personal-blog/resources/css/tailwind.css */"./resources/css/tailwind.css");
 
 
 /***/ })
