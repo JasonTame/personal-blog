@@ -22,7 +22,7 @@ mix.js('resources/js/site.js', 'public/js')
 	.webpackConfig({
 		output: { publicPath: '' },
 	})
-	.generateSW()
+	.generateSW({ clientsClaim: true, skipWaiting: true })
 
 if (mix.inProduction()) {
 	mix.version()
