@@ -3,7 +3,7 @@
 	"short_name": "Recoded Thoughts",
 	"theme_color": "#2d3748",
 	"background_color": "#ffffff",
-	"display": "browser",
+	"display": "standalone",
 	"scope": "/",
 	"start_url": "/",
 	"icons": [
