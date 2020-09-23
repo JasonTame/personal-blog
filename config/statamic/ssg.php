@@ -42,6 +42,7 @@ return [
         public_path('assets') => 'assets',
         public_path('css') => 'css',
         public_path('js') => 'js',
+        public_path('images') => 'images',
         public_path('favicon.ico') => 'favicon.ico',
         public_path('manifest.json') => 'manifest.json',
         public_path('service-worker.js') => 'service-worker.js',
