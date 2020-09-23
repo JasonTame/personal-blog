@@ -1,7 +1,6 @@
 const mix = require('laravel-mix')
 require('laravel-mix-purgecss')
 require('laravel-mix-workbox')
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -20,6 +19,9 @@ mix.js('resources/js/site.js', 'public/js')
 		require('postcss-nested'),
 		require('postcss-preset-env')({ stage: 0 }),
 	])
+	.webpackConfig({
+		output: { publicPath: '' },
+	})
 	.generateSW()
 
 if (mix.inProduction()) {
