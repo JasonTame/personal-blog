@@ -45,8 +45,8 @@ return [
         public_path('favicon.ico') => 'favicon.ico',
 
         //TODO: Uncomment once manifest and sw are ready
-        // public_path('manifest.json') => 'manifest.json',
-        // public_path('sw.js') => 'sw.js',
+        public_path('manifest.json') => 'manifest.json',
+        public_path('service-worker.js') => 'service-worker.js',
     ],
 
     'symlinks' => [
