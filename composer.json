@@ -3,20 +3,20 @@
     "description": "Jason Tame personal blog",
     "type": "project",
     "require": {
-        "php": "^7.4",
+        "php": "^8.0",
         "fideloper/proxy": "^4.4.1",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.6.1",
-        "rias/statamic-markdown-highlight": "^1.1.0",
-        "statamic/cms": "^v3.1.9",
-        "statamic/ssg": "^0.5.0"
+        "laravel/tinker": "^2.6.2",
+        "rias/statamic-markdown-highlight": "^2.0.0",
+        "statamic/cms": "^v3.2.9",
+        "statamic/ssg": "^0.9.0"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.5.5",
-        "facade/ignition": "^2.8.3",
-        "nunomaduro/collision": "^5.4.0",
+        "facade/ignition": "^2.9.1",
         "fzaninotto/faker": "^1.9.2",
+        "laravel/sail": "^1.12",
         "mockery/mockery": "^1.4.3",
+        "nunomaduro/collision": "^5.9.0",
         "phpunit/phpunit": "^9.0"
     },
     "config": {

@@ -7,6 +7,7 @@ sections:
         handle: title
         field:
           type: text
+          required: true
           display: Title
       -
         handle: content
@@ -30,3 +31,26 @@ sections:
           type: users
           display: Author
           default: current
+  sidebar:
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - 'unique_entry_value:{collection},{id},{site}'
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+      -
+        handle: topics
+        field:
+          type: terms
+          taxonomies:
+            - topics
+          display: Topics
+          mode: select
