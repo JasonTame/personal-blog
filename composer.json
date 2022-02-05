@@ -8,7 +8,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.6.2",
         "rias/statamic-markdown-highlight": "^2.0.0",
-        "statamic/cms": "^v3.2.9",
+        "statamic/cms": "3.2.32",
         "statamic/ssg": "^0.9.0"
     },
     "require-dev": {
@@ -22,7 +22,11 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "pixelfear/composer-dist-plugin": true
+        }
     },
     "extra": {
         "laravel": {
