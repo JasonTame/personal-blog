@@ -3,6 +3,10 @@
     "description": "Jason Tame personal blog",
     "type": "project",
     "require": {
+        "ext-bcmath": "*",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
         "php": "^8.2",
         "fideloper/proxy": "^4.4.1",
         "laravel/framework": "^9.0",
