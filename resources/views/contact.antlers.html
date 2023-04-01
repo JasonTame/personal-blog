@@ -1,101 +1,96 @@
 <div class="max-w-5xl mx-auto relative mb-86 content">
-	{{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0
-	left-0 w-20 hidden lg:block" }}
-	<article class="py-32 max-w-2xl mx-auto content">
-		<div
-			class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
-		>
-			<div class="relative max-w-xl mx-auto">
-				<div class="text-center">
-					<h2
-						class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-					>
-						Contact
-					</h2>
-					<p class="mt-4 text-lg leading-6 text-gray-500">
-						I'd love to hear from you! Drop me a message below and
-						I'll get back to you
-					</p>
-				</div>
-				<div class="my-8">
-					<form
-						name="contact"
-						action="/success"
-						method="POST"
-						data-netlify="true"
-						netlify-honeypot="bot-field"
-						class="flex flex-col"
-					>
-						{{ csrf_field }}
-						<p class="hidden">
-							<label
-								>Don’t fill this out if you're human:
-								<input name="bot-field"
-							/></label>
-						</p>
-						<div>
-							<label
-								for="name"
-								class="block text-sm font-medium leading-5 text-gray-700"
-								>Name</label
-							>
-							<div class="mb-8 relative rounded-md shadow-sm">
-								<input
-									id="name"
-									name="name"
-									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
-									required
-								/>
-							</div>
-						</div>
+  {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0
+  left-0 w-20 hidden lg:block" }}
+  <article class="py-32 max-w-2xl mx-auto content">
+    <div class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
+      <div class="relative max-w-xl mx-auto">
+        <div class="text-center">
+          <h2
+            class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+          >
+            Contact
+          </h2>
+          <p class="mt-4 text-lg leading-6 text-gray-500">
+            I'd love to hear from you! Drop me a message below and I'll get back
+            to you
+          </p>
+        </div>
+        <div class="my-8">
+          <form
+            name="contact"
+            action="/success"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            class="flex flex-col"
+          >
+            {{ csrf_field }}
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </p>
+            <div>
+              <label
+                for="name"
+                class="block text-sm font-medium leading-5 text-gray-700"
+                >Name</label
+              >
+              <div class="mb-8 relative rounded-md shadow-sm">
+                <input
+                  id="name"
+                  name="name"
+                  class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+                  required
+                />
+              </div>
+            </div>
 
-						<div>
-							<label
-								for="email"
-								class="block text-sm font-medium leading-5 text-gray-700"
-								>Email</label
-							>
-							<div class="mb-8 relative rounded-md shadow-sm">
-								<input
-									id="email"
-									type="email"
-									name="email"
-									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
-									required
-								/>
-							</div>
-						</div>
-						<div>
-							<label
-								for="message"
-								class="block text-sm font-medium leading-5 text-gray-700"
-								>Message</label
-							>
-							<div class="mb-8 relative rounded-md shadow-sm">
-								<textarea
-									id="message"
-									name="message"
-									rows="4"
-									class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
-									required
-								></textarea>
-							</div>
-						</div>
-						<div>
-							<span
-								class="w-full inline-flex rounded-md shadow-sm"
-							>
-								<button
-									type="submit"
-									class="w-full rounded inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal hover:bg-teal-light focus:outline-none focus:border-teal focus:shadow-outline-teal active:bg-teal transition ease-in-out duration-150"
-								>
-									Let's talk
-								</button>
-							</span>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</article>
+            <div>
+              <label
+                for="email"
+                class="block text-sm font-medium leading-5 text-gray-700"
+                >Email</label
+              >
+              <div class="mb-8 relative rounded-md shadow-sm">
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <label
+                for="message"
+                class="block text-sm font-medium leading-5 text-gray-700"
+                >Message</label
+              >
+              <div class="mb-8 relative rounded-md shadow-sm">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  class="border border-gray-300 shadow focus:border-teal-light focus:outline-none hover:border-teal-light py-3 px-4 block w-full transition ease-in-out duration-150"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <span class="w-full inline-flex rounded-md shadow-sm">
+                <button
+                  type="submit"
+                  class="w-full rounded inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium text-white bg-teal hover:bg-teal-light focus:outline-none focus:border-teal focus:ring-teal active:bg-teal transition ease-in-out duration-150"
+                >
+                  Let's talk
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </article>
 </div>
