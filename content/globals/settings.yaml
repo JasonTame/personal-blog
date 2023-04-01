@@ -1,10 +1,14 @@
 title: Settings
 data:
-  site_name: "Jason Tame"
+  site_name: 'Jason Tame'
   social:
-    - name: Twitter
-      url: "https://twitter.com/jason_tame"
-      icon: site/social-icons/twitter.svg
-    - name: Github
-      url: "https://github.com/jasontame"
+    -
+      id: iy9qdk1Q
+      name: GitHub
+      url: 'https://github.com/jasontame'
       icon: site/social-icons/github.svg
+    -
+      id: lfy9xkhv
+      name: LinkedIn
+      url: 'https://www.linkedin.com/in/jason-tame-052868106'
+      icon: site/social-icons/linkedin.svg
