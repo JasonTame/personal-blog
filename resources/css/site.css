@@ -1,5 +1,3 @@
-@import url("https://rsms.me/inter/inter.css");
-
 body {
   @apply text-gray-800;
   font-feature-settings: "frac" 1;
