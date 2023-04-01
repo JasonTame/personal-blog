@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ site_short_locale }}">
-	<head>
-		{{ partial:meta }}
-	</head>
-	<body
-		class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10"
-		x-data="{ showMobileNav: false }"
-	>
-		{{ partial:nav }} {{ template_content }} {{ partial:footer }}
-	</body>
+<html lang="en">
+  <head>
+    {{ partial:meta }}
+  </head>
+  <body
+    class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10"
+    x-data="{ showMobileNav: false }"
+  >
+    {{ partial:nav }} {{ template_content }} {{ partial:footer }}
+  </body>
 
-	<script>
-		// Check that service workers are supported
-		if ('serviceWorker' in navigator) {
-			// Use the window load event to keep the page load performant
-			window.addEventListener('load', () => {
-				navigator.serviceWorker.register('/service-worker.js')
-			})
-		}
-	</script>
+  <script>
+    // Check that service workers are supported
+    if ("serviceWorker" in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/service-worker.js");
+      });
+    }
+  </script>
 </html>
