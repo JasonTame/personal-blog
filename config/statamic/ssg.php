@@ -46,8 +46,6 @@ return [
         public_path('favicon.ico') => 'favicon.ico',
         public_path('manifest.json') => 'manifest.json',
         public_path('service-worker.js') => 'service-worker.js',
-        // TODO: find a way to do this automatically
-        public_path('workbox-d9851aed.js') => 'workbox-d9851aed.js'
     ],
 
     'symlinks' => [
